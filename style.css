@@ -2,13 +2,15 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #F1F0D2;
 }
 
 .navbar-collapse {
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between;
+  font-size: 19px;  
 }
+
 
 /* Estilos generales */
 
@@ -26,12 +28,12 @@ h1 {
 
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #A8B67F;
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: #F1F0D2;
 }
 
 .seccion-titulo {
@@ -52,6 +54,8 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
+  background-color: #A6AE79;
+  border-color: #A6AE79;
 }
 
 .texto-negro {
@@ -65,7 +69,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #F1F0D2;
   min-height: 450px;
   text-align: center;
 }
@@ -75,14 +79,13 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
+  width: 270px;
+  height: 270px;
   margin: 20px;
 }
 
-.hero-principal h2 {
-  font-size: 1.5rem;
-  color: #615151;
+h2 #typewriter .text-primary {
+  color: aqua;
 }
 
 /* Sobre mi */
@@ -93,8 +96,16 @@ h1 {
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  max-width: 700px;
+}
+
+.sobre-mi .contenedor .seccion-titulo {
   text-align: center;
+
+}
+
+.sobre-mi .contenedor .seccion-texto {
+  text-align: justify;
 }
 
 /* Experiencia */
@@ -115,12 +126,12 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #7F8A61;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: #95D662;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -138,9 +149,6 @@ h1 {
   margin: 10px 0;
 }
 
-.badge {
-  margin: 5px;
-}
 
 /* Proyectos */
 
@@ -205,12 +213,14 @@ h1 {
 .articulos {
   min-height: 500px;
   padding: 30px;
+  background-color: #F1F0D2;
 }
 
 .articulos .card {
   width: 80%;
   max-width: 600px;
   margin: 20px;
+  background-color: #A6AE79;
 }
 
 .articulos .card-header {
@@ -249,7 +259,7 @@ h1 {
 .testimonio-texto {
   max-width: 70%;
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
   font-family: 'Share Tech Mono', monospace;
 }
 
@@ -281,7 +291,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #8A9063;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -362,8 +372,8 @@ footer {
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: #E8E6EF;
+  border: 2px solid #989F6E;
 }
 
 .iconos-redes-sociales a:hover i {
@@ -371,9 +381,10 @@ footer {
 }
 
 .derechos-de-autor {
-  font-size: 15px;
-  color: #aeaeae;
+  font-size: 17px;
+  color: #ffffff;
   padding: 20px;
+  font-weight: bold;
 }
 
 /* Adaptable (Responsivo) */

@@ -2,12 +2,12 @@ let app = document.getElementById('typewriter');
  
 let typewriter = new Typewriter(app, {
   loop: true,
-  delay: 75,
+  delay: 80,
 });
  
 typewriter
   .pauseFor(2500)
-  .typeString('Desarrollo sitios web y escribo artículos sobre programación.')
-  .pauseFor(200)
+  .typeString('Estudiante en Ingeniería de Software. Desarrolladora de Frontend y Backend Junior.')
+  .pauseFor(100)
   .deleteChars(10)
   .start();
